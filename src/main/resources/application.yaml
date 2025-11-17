@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: store
+  datasource:
+    url: jdbc:mysql://localhost:3306/store?createDatabaseIfNotExist=true
+    username: root
+    password: qwerQ1!
+  jpa:
+    show-sql: true
+  jwt:
+    secret:${JWT_SECRET}
+stripe:
+  apiUrl: https://api.stripe.com
+  timeout: 1000
+  enabled: true
+  supported-currencies: USD,EUR,GTP
+payment-gateway: stripe
