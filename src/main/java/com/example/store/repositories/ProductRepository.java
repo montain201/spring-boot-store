@@ -1,9 +1,6 @@
-package com.example.store.respositories;
+package com.example.store.repositories;
 
-import com.example.store.dtos.ProductSummary;
-import com.example.store.entities.Category;
 import com.example.store.entities.Product;
-import jakarta.transaction.Transactional;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.jpa.repository.query.Procedure;

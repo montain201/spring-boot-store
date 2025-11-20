@@ -2,19 +2,15 @@ package com.example.store.services;
 
 import com.example.store.dtos.CartDto;
 import com.example.store.dtos.CartItemDto;
-import com.example.store.dtos.UpdateCartItemRequest;
 import com.example.store.entities.Cart;
 import com.example.store.exceptions.CartNotFoundException;
 import com.example.store.exceptions.ProductNotFoundException;
 import com.example.store.mappers.CartMapper;
-import com.example.store.respositories.CartRepository;
-import com.example.store.respositories.ProductRepository;
+import com.example.store.repositories.CartRepository;
+import com.example.store.repositories.ProductRepository;
 import lombok.AllArgsConstructor;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
-import java.util.Map;
 import java.util.UUID;
 
 @Service

@@ -1,11 +1,5 @@
 package com.example.store;
 
-import com.example.store.entities.Address;
-import com.example.store.entities.Profile;
-import com.example.store.entities.Tag;
-import com.example.store.entities.User;
-import com.example.store.respositories.UserRepository;
-import com.example.store.services.UserService;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;

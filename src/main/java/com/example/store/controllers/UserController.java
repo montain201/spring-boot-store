@@ -4,21 +4,18 @@ import com.example.store.dtos.RegisterUserRequest;
 import com.example.store.dtos.UpdateUserRequest;
 import com.example.store.dtos.UserDto;
 import com.example.store.dtos.UserPassword;
-import com.example.store.entities.User;
+import com.example.store.entities.Role;
 import com.example.store.mappers.UserMapper;
-import com.example.store.respositories.UserRepository;
-import com.example.store.services.UserService;
+import com.example.store.repositories.UserRepository;
 import jakarta.validation.Valid;
 import lombok.AllArgsConstructor;
 import org.springframework.data.domain.Sort;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.crypto.password.PasswordEncoder;
-import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.util.UriComponentsBuilder;
 
-import java.net.http.HttpResponse;
 import java.util.*;
 
 @RestController
@@ -74,6 +71,8 @@ public class UserController {
 
         var user = userMapper.toEntity(request);
         user.setPassword(passwordEncoder.encode(user.getPassword()));
+        user.setRole(Role.USER);
+
         userRepository.save(user);
 
         var userDto= userMapper.toDto(user);

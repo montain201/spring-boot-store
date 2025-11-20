@@ -1,11 +1,10 @@
 package com.example.store.services;
 
 import com.example.store.entities.Address;
-import com.example.store.entities.Category;
 import com.example.store.entities.User;
-import com.example.store.respositories.ProductRepository;
-import com.example.store.respositories.ProfileRepository;
-import com.example.store.respositories.UserRepository;
+import com.example.store.repositories.ProductRepository;
+import com.example.store.repositories.ProfileRepository;
+import com.example.store.repositories.UserRepository;
 import jakarta.persistence.EntityManager;
 import jakarta.transaction.Transactional;
 import lombok.AllArgsConstructor;

@@ -1,4 +1,4 @@
-package com.example.store.respositories;
+package com.example.store.repositories;
 
 import com.example.store.entities.Cart;
 import org.springframework.data.jpa.repository.EntityGraph;
