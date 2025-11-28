@@ -1,15 +1,11 @@
 package com.example.store;
 
-import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Service;
-
 //@Service
-public class OrderService {
+public class OrderServicePayment {
 
     private  PaymentService paymentService;
 
-    public OrderService(PaymentService  paymentService) {
+    public OrderServicePayment(PaymentService  paymentService) {
         this.paymentService = paymentService;
     }
     public void placeOrder() {

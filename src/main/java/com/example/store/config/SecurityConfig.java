@@ -3,6 +3,7 @@ package com.example.store.config;
 import com.example.store.entities.Role;
 import com.example.store.filters.JwtAuthenticationFilter;
 import lombok.AllArgsConstructor;
+import org.springframework.boot.web.servlet.filter.OrderedHiddenHttpMethodFilter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;
@@ -62,6 +63,7 @@ public class SecurityConfig {
                         .requestMatchers(HttpMethod.POST,"/users").permitAll()
                         .requestMatchers(HttpMethod.POST,"/auth/login").permitAll()
                         .requestMatchers(HttpMethod.POST,"/auth/refresh").permitAll()
+                        .requestMatchers(HttpMethod.POST,"/checkout/webhook").permitAll()
                         //.requestMatchers(HttpMethod.POST,"/auth/validate").permitAll()
                         .anyRequest().authenticated()
                 )

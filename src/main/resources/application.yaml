@@ -9,11 +9,14 @@ spring:
     show-sql: true
   jwt:
     secret: ${JWT_SECRET}
-    accessTokenExpiration: 300
-    refreshTokenExpiration: 604800
+    accessTokenExpiration: 7200 # 2h
+    refreshTokenExpiration: 604800 #7d
 stripe:
+  secretkey: ${STRIPE_SECRET_KEY}
+  webhookSecretKey: ${STRIPE_WEBHOOK_SECRET_KEY}
   apiUrl: https://api.stripe.com
   timeout: 1000
   enabled: true
   supported-currencies: USD,EUR,GTP
 payment-gateway: stripe
+websiteUrl: http://localhost:5001
