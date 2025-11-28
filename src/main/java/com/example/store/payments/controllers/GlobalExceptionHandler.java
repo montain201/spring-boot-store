@@ -1,4 +1,4 @@
-package com.example.store.controllers;
+package com.example.store.payments.controllers;
 
 import com.example.store.dtos.ErrorDto;
 import org.springframework.http.ResponseEntity;

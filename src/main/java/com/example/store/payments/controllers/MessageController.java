@@ -1,4 +1,4 @@
-package com.example.store.controllers;
+package com.example.store.payments.controllers;
 
 import com.example.store.entities.Message;
 import org.springframework.web.bind.annotation.RequestMapping;
