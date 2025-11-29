@@ -1,12 +1,6 @@
-package com.example.store.payments.controllers;
+package com.example.store.users;
 
-import com.example.store.dtos.RegisterUserRequest;
-import com.example.store.dtos.UpdateUserRequest;
-import com.example.store.dtos.UserDto;
 import com.example.store.dtos.UserPassword;
-import com.example.store.entities.Role;
-import com.example.store.mappers.UserMapper;
-import com.example.store.repositories.UserRepository;
 import jakarta.validation.Valid;
 import lombok.AllArgsConstructor;
 import org.springframework.data.domain.Sort;

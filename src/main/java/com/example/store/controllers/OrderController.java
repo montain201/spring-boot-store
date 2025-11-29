@@ -1,4 +1,4 @@
-package com.example.store.payments.controllers;
+package com.example.store.controllers;
 
 import com.example.store.dtos.ErrorDto;
 import com.example.store.dtos.OrderDto;

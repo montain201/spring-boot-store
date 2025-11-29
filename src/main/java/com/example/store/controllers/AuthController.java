@@ -1,12 +1,11 @@
-package com.example.store.payments.controllers;
+package com.example.store.controllers;
 
-import com.example.store.config.JwtConfig;
+import com.example.store.auth.JwtConfig;
 import com.example.store.dtos.JwtResponse;
 import com.example.store.dtos.LoginRequest;
-import com.example.store.dtos.UserDto;
-import com.example.store.mappers.UserMapper;
-import com.example.store.mappers.UserMapperImpl;
-import com.example.store.repositories.UserRepository;
+import com.example.store.users.UserDto;
+import com.example.store.users.UserMapper;
+import com.example.store.users.UserRepository;
 import com.example.store.services.JwtService;
 import jakarta.servlet.http.Cookie;
 import jakarta.servlet.http.HttpServletResponse;
@@ -30,7 +29,6 @@ public class AuthController {
     private final AuthenticationManager authenticationManager;
     private final JwtService jwtService;
     private final JwtConfig jwtConfig;
-    private final UserMapperImpl userMapperImpl;
     private final UserMapper userMapper;
 
     @PostMapping("/login")

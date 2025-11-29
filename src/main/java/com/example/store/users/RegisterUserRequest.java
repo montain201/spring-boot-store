@@ -1,6 +1,5 @@
-package com.example.store.dtos;
+package com.example.store.users;
 
-import com.example.store.validation.Lowercase;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;

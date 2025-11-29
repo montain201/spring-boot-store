@@ -1,6 +1,6 @@
 package com.example.store.services;
 
-import com.example.store.entities.Role;
+import com.example.store.users.Role;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 

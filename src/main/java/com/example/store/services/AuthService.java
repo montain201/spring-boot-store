@@ -1,7 +1,7 @@
 package com.example.store.services;
 
-import com.example.store.entities.User;
-import com.example.store.repositories.UserRepository;
+import com.example.store.users.User;
+import com.example.store.users.UserRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Service;

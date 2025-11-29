@@ -1,4 +1,4 @@
-package com.example.store.dtos;
+package com.example.store.users;
 
 import lombok.Data;
 

@@ -1,5 +1,6 @@
-package com.example.store.entities;
+package com.example.store.users;
 
+import com.example.store.entities.Tag;
 import jakarta.persistence.*;
 import lombok.*;
 
