@@ -1,4 +1,4 @@
-package com.example.store.entities;
+package com.example.store.orders;
 
 import com.example.store.products.Product;
 import jakarta.persistence.*;

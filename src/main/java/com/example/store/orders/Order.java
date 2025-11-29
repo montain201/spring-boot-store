@@ -1,5 +1,7 @@
-package com.example.store.entities;
+package com.example.store.orders;
 
+import com.example.store.carts.Cart;
+import com.example.store.entities.OrderStatus;
 import com.example.store.users.User;
 import jakarta.persistence.*;
 import lombok.Getter;
