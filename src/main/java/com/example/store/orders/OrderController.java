@@ -1,9 +1,6 @@
-package com.example.store.controllers;
+package com.example.store.orders;
 
 import com.example.store.dtos.ErrorDto;
-import com.example.store.dtos.OrderDto;
-import com.example.store.exceptions.OrderNotFoundException;
-import com.example.store.services.OrderService;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

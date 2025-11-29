@@ -1,11 +1,9 @@
-package com.example.store.dtos;
+package com.example.store.orders;
 
-import com.example.store.entities.OrderStatus;
 import lombok.Data;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
-import java.util.ArrayList;
 import java.util.List;
 
 @Data

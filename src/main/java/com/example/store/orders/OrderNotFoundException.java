@@ -1,4 +1,4 @@
-package com.example.store.exceptions;
+package com.example.store.orders;
 
 public class OrderNotFoundException extends RuntimeException {
     public OrderNotFoundException() {

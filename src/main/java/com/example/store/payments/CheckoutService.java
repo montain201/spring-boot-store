@@ -4,7 +4,7 @@ import com.example.store.orders.Order;
 import com.example.store.carts.CartEmptyException;
 import com.example.store.carts.CartNotFoundException;
 import com.example.store.carts.CartRepository;
-import com.example.store.repositories.OrderRepository;
+import com.example.store.orders.OrderRepository;
 import com.example.store.auth.AuthService;
 import com.example.store.carts.CartService;
 import lombok.RequiredArgsConstructor;

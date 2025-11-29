@@ -1,10 +1,6 @@
-package com.example.store.services;
+package com.example.store.orders;
 
 import com.example.store.auth.AuthService;
-import com.example.store.dtos.OrderDto;
-import com.example.store.exceptions.OrderNotFoundException;
-import com.example.store.mappers.OrderMapper;
-import com.example.store.repositories.OrderRepository;
 import com.example.store.users.UserRepository;
 import com.example.store.users.UserService;
 import lombok.AllArgsConstructor;

@@ -1,7 +1,6 @@
 package com.example.store.products;
 
 import com.example.store.dtos.RegisterProductRequest;
-import com.example.store.repositories.CategoryRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

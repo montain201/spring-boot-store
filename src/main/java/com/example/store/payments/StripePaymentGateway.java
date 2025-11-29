@@ -2,7 +2,7 @@ package com.example.store.payments;
 
 import com.example.store.orders.Order;
 import com.example.store.orders.OrderItem;
-import com.example.store.entities.OrderStatus;
+import com.example.store.orders.PaymentStatus;
 import com.stripe.exception.SignatureVerificationException;
 import com.stripe.exception.StripeException;
 import com.stripe.model.Event;
@@ -64,11 +64,11 @@ public class StripePaymentGateway implements PaymentGateway {
            return switch (event.getType()) {
                //Update order status (PAID)
                 case "payment_intent.succeeded" ->
-                     Optional.of(new PaymentResult(extractOrderId(event), OrderStatus.PAID));
+                     Optional.of(new PaymentResult(extractOrderId(event), PaymentStatus.PAID));
 
                //Update order status (FAILED)
                 case "payment_intent.payment_failed" ->
-                     Optional.of(new PaymentResult(extractOrderId(event), OrderStatus.FAILED));
+                     Optional.of(new PaymentResult(extractOrderId(event), PaymentStatus.FAILED));
 
                 default ->
                      Optional.empty();

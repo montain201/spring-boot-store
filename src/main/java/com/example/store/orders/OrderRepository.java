@@ -1,6 +1,5 @@
-package com.example.store.repositories;
+package com.example.store.orders;
 
-import com.example.store.orders.Order;
 import com.example.store.users.User;
 import org.springframework.data.jpa.repository.EntityGraph;
 import org.springframework.data.jpa.repository.JpaRepository;
