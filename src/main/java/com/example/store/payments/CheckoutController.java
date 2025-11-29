@@ -1,8 +1,8 @@
 package com.example.store.payments;
 
 import com.example.store.dtos.ErrorDto;
-import com.example.store.exceptions.CartEmptyException;
-import com.example.store.exceptions.CartNotFoundException;
+import com.example.store.carts.CartEmptyException;
+import com.example.store.carts.CartNotFoundException;
 import com.example.store.repositories.OrderRepository;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;

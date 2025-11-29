@@ -1,11 +1,11 @@
-package com.example.store.dtos;
+package com.example.store.carts;
 
 import lombok.Data;
 
 import java.math.BigDecimal;
 @Data
 public class CartItemDto {
-    private CartProductDto product;
+    private ProductDto product;
     private int quantity;
     private BigDecimal totalPrice;
 }

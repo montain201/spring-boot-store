@@ -1,8 +1,7 @@
-package com.example.store.dtos;
+package com.example.store.carts;
 
 import lombok.Data;
 
-import java.util.UUID;
 @Data
 public class AddItemToCartRequest {
     private Long productId;

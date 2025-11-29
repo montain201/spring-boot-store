@@ -1,12 +1,12 @@
 package com.example.store.payments;
 
-import com.example.store.entities.Order;
-import com.example.store.exceptions.CartEmptyException;
-import com.example.store.exceptions.CartNotFoundException;
-import com.example.store.repositories.CartRepository;
+import com.example.store.orders.Order;
+import com.example.store.carts.CartEmptyException;
+import com.example.store.carts.CartNotFoundException;
+import com.example.store.carts.CartRepository;
 import com.example.store.repositories.OrderRepository;
 import com.example.store.auth.AuthService;
-import com.example.store.services.CartService;
+import com.example.store.carts.CartService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

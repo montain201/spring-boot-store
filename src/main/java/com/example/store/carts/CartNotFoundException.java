@@ -1,4 +1,4 @@
-package com.example.store.exceptions;
+package com.example.store.carts;
 
 public class CartNotFoundException extends RuntimeException {
     public CartNotFoundException() {

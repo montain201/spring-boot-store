@@ -1,4 +1,4 @@
-package com.example.store.exceptions;
+package com.example.store.carts;
 
 public class CartEmptyException extends RuntimeException {
     public CartEmptyException() {

@@ -1,7 +1,7 @@
 package com.example.store.payments;
 
-import com.example.store.entities.Order;
-import com.example.store.entities.OrderItem;
+import com.example.store.orders.Order;
+import com.example.store.orders.OrderItem;
 import com.example.store.entities.OrderStatus;
 import com.stripe.exception.SignatureVerificationException;
 import com.stripe.exception.StripeException;
