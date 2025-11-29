@@ -1,6 +1,5 @@
-package com.example.store.services;
+package com.example.store.auth;
 
-import com.example.store.auth.JwtConfig;
 import com.example.store.users.User;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.JwtException;

@@ -5,7 +5,7 @@ import com.example.store.exceptions.CartEmptyException;
 import com.example.store.exceptions.CartNotFoundException;
 import com.example.store.repositories.CartRepository;
 import com.example.store.repositories.OrderRepository;
-import com.example.store.services.AuthService;
+import com.example.store.auth.AuthService;
 import com.example.store.services.CartService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

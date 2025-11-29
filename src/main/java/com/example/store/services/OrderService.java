@@ -1,5 +1,6 @@
 package com.example.store.services;
 
+import com.example.store.auth.AuthService;
 import com.example.store.dtos.OrderDto;
 import com.example.store.exceptions.OrderNotFoundException;
 import com.example.store.mappers.OrderMapper;

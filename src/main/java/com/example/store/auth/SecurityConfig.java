@@ -1,7 +1,6 @@
 package com.example.store.auth;
 
 import com.example.store.users.Role;
-import com.example.store.filters.JwtAuthenticationFilter;
 import lombok.AllArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
