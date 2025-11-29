@@ -4,10 +4,10 @@ import com.example.store.dtos.CartDto;
 import com.example.store.dtos.CartItemDto;
 import com.example.store.entities.Cart;
 import com.example.store.exceptions.CartNotFoundException;
-import com.example.store.exceptions.ProductNotFoundException;
+import com.example.store.products.ProductNotFoundException;
 import com.example.store.mappers.CartMapper;
 import com.example.store.repositories.CartRepository;
-import com.example.store.repositories.ProductRepository;
+import com.example.store.products.ProductRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 

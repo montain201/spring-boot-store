@@ -1,6 +1,6 @@
 package com.example.store.users;
 
-import com.example.store.repositories.ProductRepository;
+import com.example.store.products.ProductRepository;
 import jakarta.persistence.EntityManager;
 import jakarta.transaction.Transactional;
 import lombok.AllArgsConstructor;

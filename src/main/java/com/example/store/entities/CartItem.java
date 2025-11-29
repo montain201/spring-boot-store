@@ -1,5 +1,6 @@
 package com.example.store.entities;
 
+import com.example.store.products.Product;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;

@@ -1,8 +1,6 @@
-package com.example.store.mappers;
+package com.example.store.products;
 
-import com.example.store.dtos.ProductDto;
 import com.example.store.dtos.RegisterProductRequest;
-import com.example.store.entities.Product;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.MappingTarget;

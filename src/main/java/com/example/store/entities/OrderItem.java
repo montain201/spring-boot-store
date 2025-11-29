@@ -1,7 +1,7 @@
 package com.example.store.entities;
 
+import com.example.store.products.Product;
 import jakarta.persistence.*;
-import jakarta.validation.constraints.NotNull;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;

@@ -5,7 +5,7 @@ import com.example.store.dtos.CartDto;
 import com.example.store.dtos.CartItemDto;
 import com.example.store.dtos.UpdateCartItemRequest;
 import com.example.store.exceptions.CartNotFoundException;
-import com.example.store.exceptions.ProductNotFoundException;
+import com.example.store.products.ProductNotFoundException;
 import com.example.store.services.CartService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
