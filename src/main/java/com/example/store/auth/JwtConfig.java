@@ -1,4 +1,4 @@
-package com.example.store.config;
+package com.example.store.auth;
 
 
 import io.jsonwebtoken.security.Keys;
