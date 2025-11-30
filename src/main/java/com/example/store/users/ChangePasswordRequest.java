@@ -1,9 +1,9 @@
-package com.example.store.dtos;
+package com.example.store.users;
 
 import lombok.Data;
 
 @Data
-public class UserPassword {
+public class ChangePasswordRequest {
     private String oldPassword;
     private String newPassword;
 }
