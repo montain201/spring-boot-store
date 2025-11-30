@@ -1,4 +1,4 @@
-package com.example.store.entities;
+package com.example.store.tags;
 
 import com.example.store.users.User;
 import jakarta.persistence.*;

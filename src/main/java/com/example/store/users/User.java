@@ -1,6 +1,6 @@
 package com.example.store.users;
 
-import com.example.store.entities.Tag;
+import com.example.store.tags.Tag;
 import jakarta.persistence.*;
 import lombok.*;
 

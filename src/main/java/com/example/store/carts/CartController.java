@@ -1,6 +1,5 @@
 package com.example.store.carts;
 
-import com.example.store.dtos.UpdateCartItemRequest;
 import com.example.store.products.ProductNotFoundException;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;

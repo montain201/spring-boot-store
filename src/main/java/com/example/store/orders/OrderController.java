@@ -1,6 +1,6 @@
 package com.example.store.orders;
 
-import com.example.store.dtos.ErrorDto;
+import com.example.store.common.ErrorDto;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
