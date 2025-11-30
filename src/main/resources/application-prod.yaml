@@ -1,4 +1,6 @@
 spring:
   datasource:
     url: ${SPRING_DATASOURCE_URL}
+    username: root
+    password: PFXfdKYzoaBZmJxkHwjSeUslzRiHiqfz
 websiteUrl: https://sanpad.dk
